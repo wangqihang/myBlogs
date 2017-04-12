@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>资源下载</title>
+	<link rel="stylesheet" href="__PUBLIC__/blog/css/index.css">
+	<link rel="icon" type="image/x-icon" href="__PUBLIC__/logo/favicon.jpg">
+</head>
+<body>
+	<div id="head">
+		<div id="user">
+				<if condition="$flag eq 1">
+						<span><a href="__CONTROLLER__/index">博客首页</a>&middot;<a href="__MODULE__/../Admin/Index/index">{$name}</a>&middot;<a href="__CONTROLLER__/homepage/user/{$session}">我的博客</a>&middot;<a href="__MODULE__/../Admin/Login/logout" onclick="if (confirm('确定要退出吗？')) return true; else return false;">退出</a>
+					<else/>
+						<span><a href="__CONTROLLER__/index">博客首页</a>&middot;<a href="__MODULE__/../Admin/Login/login">登录</a>&middot;<a href="__MODULE__/../Admin/Login/register">注册</a></span>
+				</if>
+			</span>
+		</div>
+		<div class="logo">
+			<img src="__PUBLIC__/blog/img/logo1.gif" alt="图标">
+		</div>
+		<div class="nav"></div>
+		<div class="download">
+			<table>
+				<table class="th">
+					<th>文件名称</th>
+					<th>文件上传者</th>
+					<th>文件大小</th>
+					<th>文件文件类型</th>
+					<th>文件上传时间</th>
+					<th>下载数量</th>
+					<th>下载</th>
+				</table>
+				<volist name="list" id="vo">
+					<tr>
+						<table class="download_cont">
+							<tr>
+								<td><div class="a">{$vo.file_name}</div></td>
+								<td>{$vo.name}</td>
+								<td>{$vo.size}字节</td>
+								<td>{$vo.file_type}</td>
+								<td>{$vo.time|date='Y-m-d H:i:s',###}</td>
+								<td>{$vo.count}</td>
+								<td><a href="__CONTROLLER__/download?address={$vo.file_name}&id={$vo.id}">download</a></td>
+							</tr>
+						</table>
+					</tr>
+				</volist>
+			</table>
+			<if condition="$count egt 10">
+					<div class="page"><span>共 {$count} 条</span>{$page}</div>
+				<else/>
+					<div class="page"><span>共 {$count} 条</span>共 1 页</div>
+			</if>
+		</div>
+	</div>
+</body>
+</html>

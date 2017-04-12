@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人主页</title>
+	<link rel="stylesheet" href="__PUBLIC__/blog/css/detail.css">
+	<link rel="icon" type="image/x-icon" href="__PUBLIC__/logo/favicon.jpg">
+</head>
+<body>
+	<div id="head">
+		<a href="">{$re['name']}的博客</a>
+	</div>
+	<div id="main">
+		<div class="info">
+			 <ul><span>个人资料</span></ul>
+			 <div class="tou">
+			 	<div class="touimg"><img src="__PUBLIC__/admin/Uploads/{$re['imgpath']}" alt="头像"></div>
+			 	<span>{$re['name']}</span>
+			 </div>
+			 <ul>
+			 	<li>评论：{$com_count}条</li>
+			 	<li>文章总数：{$count}篇</li>
+			 </ul>
+		</div>
+		<div id="work">
+			<div id="home_nav">
+				<span><a href="__MODULE__/Index/index">博客园子</a> &middot; <a href="__MODULE__/../Admin/Index/index">博客管理</a></span>
+			</div>
+			<volist name="list" id="vo">
+				<div id="home_article">
+					<a class="home_title" href="__MODULE__/Detail/index/articleid/{$vo.id}" title="点击查看详情">{$vo.title}</a><br/>
+					<span style="float:left;margin-top:10px;">内容：</span>
+					<div class="home_content">
+						{$vo.content}
+					</div>
+					<div class="home_info">
+						<span>{$vo.name}&nbsp;&nbsp;&nbsp;</span>发表于&nbsp;{$vo.time|date='Y-m-d H:i:s',###} &nbsp;&nbsp;&nbsp;评论({$vo.count})
+					</div>
+				</div>
+			</volist>
+			 <if condition="$count egt 10">
+					<div class="page">{$page}</div>
+				<else/>
+					<div class="page">共 1 页</div>
+			</if>
+		</div>
+	</div>
+</body>
+	<script src="__PUBLIC__/admin/js/jquery-main.js"></script>
+	<script src="__PUBLIC__/blog/js/index.js"></script>
+</html>

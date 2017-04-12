@@ -1,0 +1,52 @@
+[ 2016-08-19T15:53:07+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0092s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('4','136','4','回复1','1471593187') [ RunTime:0.0580s ]
+
+[ 2016-08-19T18:55:21+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0027s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('4','139','4','hello world！','1471604121') [ RunTime:0.0526s ]
+
+[ 2016-08-19T18:56:31+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+ERR: 无法加载控制器:Home
+
+[ 2016-08-19T18:56:52+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+ERR: 无法加载控制器:Home
+
+[ 2016-08-19T18:57:54+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+ERR: 非法操作:Home
+
+[ 2016-08-19T18:58:17+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+ERR: 无法加载控制器:Home
+
+[ 2016-08-19T18:58:46+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0025s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('4','140','4','第三方接口了','1471604326') [ RunTime:0.0758s ]
+
+[ 2016-08-19T18:59:14+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0029s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('4','140','4','是的发送到饭店大师傅','1471604354') [ RunTime:0.0701s ]
+

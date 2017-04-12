@@ -1,0 +1,222 @@
+[ 2016-08-16T10:50:31+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Index/detail
+ERR: 非法操作:detail
+
+[ 2016-08-16T10:50:43+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/detail/detail
+ERR: 非法操作:detail
+
+[ 2016-08-16T10:50:58+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/detail/detail
+ERR: 非法操作:detail
+
+[ 2016-08-16T10:51:00+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Index/detail
+ERR: 非法操作:detail
+
+[ 2016-08-16T10:51:12+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Index/detail
+ERR: 非法操作:detail
+
+[ 2016-08-16T10:55:17+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Index/detail/articleid/49
+ERR: 非法操作:detail
+
+[ 2016-08-16T12:06:53+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Index/home_page/user/6
+ERR: 非法操作:home_page
+
+[ 2016-08-16T12:07:44+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Index/home_page/user/6
+ERR: 非法操作:home_page
+
+[ 2016-08-16T12:33:07+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Index/homepage/user/4/p/1.html
+ERR: syntax error, unexpected '}'
+
+[ 2016-08-16T12:33:20+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Index/homepage/user/4/p/1.html
+ERR: Call to a member function where() on null
+
+[ 2016-08-16T12:33:58+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Index/homepage/user/4/p/1.html
+ERR: Call to undefined function Home\Controller\where()
+
+[ 2016-08-16T13:40:05+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Index/homepage/user/4/p/1.html
+ERR: Unsupported operand types
+
+[ 2016-08-16T13:41:04+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Index/homepage/user/4/p/1.html
+ERR: Unsupported operand types
+
+[ 2016-08-16T13:57:33+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+
+[ 2016-08-16T13:57:51+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+
+[ 2016-08-16T13:57:58+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+
+[ 2016-08-16T14:01:52+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: syntax error, unexpected '}'
+
+[ 2016-08-16T14:43:40+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `think_message` WHERE ( think_message.article_id=49 )' at line 1
+
+[ 2016-08-16T15:33:30+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: XML标签语法错误 : condition="$data1['reply_id'] eq <?php echo ($vo2["id"]); ?
+
+[ 2016-08-16T15:34:12+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: XML标签语法错误 : condition="$data2['reply_id'] eq <?php echo ($vo2["id"]); ?
+
+[ 2016-08-16T15:35:13+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: XML标签语法错误 : condition="<?php echo ($data2['reply_id']); ?
+
+[ 2016-08-16T15:36:05+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: XML标签语法错误 : condition="$vo2.reply_id eq <?php echo ($vo2["id"]); ?
+
+[ 2016-08-16T15:37:15+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: XML标签语法错误 : condition="$vo2 eq <?php echo ($vo2["id"]); ?
+
+[ 2016-08-16T15:42:17+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: syntax error, unexpected '<'
+
+[ 2016-08-16T15:42:47+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: XML标签语法错误 : condition={$vo2.id} eq {$vo1.reply_id}
+
+[ 2016-08-16T15:43:16+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: syntax error, unexpected '<'
+
+[ 2016-08-16T15:50:16+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: syntax error, unexpected 'else' (T_ELSE)
+
+[ 2016-08-16T16:35:29+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+
+[ 2016-08-16T16:36:49+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: syntax error, unexpected ')'
+
+[ 2016-08-16T17:05:26+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0070s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('4','0','6','你说的不正确！','1471338326') [ RunTime:0.1518s ]
+
+[ 2016-08-16T17:24:39+08:00 ] ::1 /qihang/Thinkblog/index.php/HOME/Detail/index/articleid/49.html
+ERR: 无法加载控制器:Detail
+
+[ 2016-08-16T17:31:27+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'time' in 'order clause'
+
+[ 2016-08-16T17:32:20+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'time' in 'order clause'
+
+[ 2016-08-16T17:33:12+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'think_message.time' in 'order clause'
+
+[ 2016-08-16T17:48:05+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined index: admin E:\project\qihang\Thinkblog\Application\Home\Controller\DetailController.class.php 第 67 行.
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'answer_id' cannot be null
+
+[ 2016-08-16T20:13:26+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0071s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('4','97','6','你','1471349605') [ RunTime:0.0697s ]
+
+[ 2016-08-16T20:13:52+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined index: admin E:\project\qihang\Thinkblog\Application\Home\Controller\DetailController.class.php 第 67 行.
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'answer_id' cannot be null
+
+[ 2016-08-16T20:49:06+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined index: admin E:\project\qihang\Thinkblog\Application\Home\Controller\DetailController.class.php 第 67 行.
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'answer_id' cannot be null
+
+[ 2016-08-16T20:50:28+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0077s ]
+NOTIC: [8] Undefined index: admin E:\project\qihang\Thinkblog\Application\Home\Controller\DetailController.class.php 第 67 行.
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'answer_id' cannot be null
+
+[ 2016-08-16T21:03:53+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0034s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('6','97','4','你好你还是啥','1471352633') [ RunTime:0.0723s ]
+
+[ 2016-08-16T21:22:35+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0087s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('4','97','4','你是王启航4','1471353755') [ RunTime:0.0664s ]
+
+[ 2016-08-16T21:23:04+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0028s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('6','97','4','你是小小桑6','1471353784') [ RunTime:0.0620s ]
+
+[ 2016-08-16T21:54:17+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49?content=%E4%BD%A0%E6%98%AF%E5%B0%8F%E5%B0%8F%E6%A1%916
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc' at line 1
+
+[ 2016-08-16T21:56:19+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49?content=%E4%BD%A0%E6%98%AF%E5%B0%8F%E5%B0%8F%E6%A1%916
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous
+
+[ 2016-08-16T21:57:42+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0047s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('6','97','4','你还好看','1471355862') [ RunTime:0.2518s ]
+
+[ 2016-08-16T21:57:54+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0172s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('6','97','4','但还是克服了','1471355874') [ RunTime:0.0534s ]
+
+[ 2016-08-16T21:58:33+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0089s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('6','97','4','123456789
+','1471355913') [ RunTime:0.0600s ]
+
+[ 2016-08-16T22:08:44+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0039s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('6','97','4','------------------------------------------------------','1471356524') [ RunTime:0.0591s ]
+
+[ 2016-08-16T22:09:20+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0021s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('4','97','4','11111111111111111111111111','1471356560') [ RunTime:0.0651s ]
+
+[ 2016-08-16T22:10:26+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0044s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('4','97','4','你还好吧22222222222222222222222222222','1471356626') [ RunTime:0.0423s ]
+
+[ 2016-08-16T22:16:55+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0046s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('6','97','4','666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666','1471357015') [ RunTime:0.0730s ]
+

@@ -1,0 +1,14 @@
+[ 2016-08-11T13:45:17+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `think_admin` WHERE `user` = 'wangqihang' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_admin` WHERE `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001537s ]
+
+[ 2016-08-11T14:10:07+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/undefined
+ERR: 非法操作:undefined
+

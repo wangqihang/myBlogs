@@ -1,0 +1,247 @@
+[ 2016-08-14T08:03:51+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+
+[ 2016-08-14T08:04:04+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `think_admin` WHERE `user` = 'wangqihang' LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `think_admin` WHERE `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001440s ]
+
+[ 2016-08-14T08:49:11+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `think_admin` WHERE `user` = 'wangqihang' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_admin` WHERE `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001354s ]
+
+[ 2016-08-14T09:14:40+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/com_admin
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'admin_id' in where clause is ambiguous
+
+[ 2016-08-14T09:19:01+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/com_admin
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'admin_id' in where clause is ambiguous
+
+[ 2016-08-14T09:20:09+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/com_admin
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'admin_id' in where clause is ambiguous
+
+[ 2016-08-14T09:23:03+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/com_admin
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'admin_id' in where clause is ambiguous
+
+[ 2016-08-14T09:29:19+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/com_admin
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'admin_id' in where clause is ambiguous
+
+[ 2016-08-14T09:32:19+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/com_admin
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'think_article' in 'on clause'
+
+[ 2016-08-14T10:29:50+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/com_admin
+ERR: syntax error, unexpected 'else' (T_ELSE)
+
+[ 2016-08-14T10:40:06+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/com_admin
+ERR: syntax error, unexpected ')'
+
+[ 2016-08-14T11:59:41+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/delete/com_id/80
+ERR: 非法操作:delete
+
+[ 2016-08-14T12:12:38+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/delete/com_id/78
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'think_blog.think_reply' doesn't exist
+
+[ 2016-08-14T12:23:30+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/index
+ERR: syntax error, unexpected end of file, expecting function (T_FUNCTION)
+
+[ 2016-08-14T12:33:24+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/delete/com_id/85/articleid/49
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'count' in 'field list'
+
+[ 2016-08-14T14:55:17+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/write_handle
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `think_admin` WHERE `user` = 'wangqihang' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0038s ]
+SQL: INSERT INTO `think_article` (`type`,`title`,`content`,`admin_id`,`time`) VALUES ('php','','','4','1471157717') [ RunTime:0.0643s ]
+
+[ 2016-08-14T14:55:35+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/write_handle
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001601s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `think_admin` WHERE `user` = 'wangqihang' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0044s ]
+SQL: INSERT INTO `think_article` (`type`,`title`,`content`,`admin_id`,`time`) VALUES ('php','','','4','1471157735') [ RunTime:0.0517s ]
+
+[ 2016-08-14T14:59:40+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/edite_send/articleid/49
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1
+
+[ 2016-08-14T14:59:54+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/edite_send/articleid/49
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1
+
+[ 2016-08-14T15:04:14+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+
+[ 2016-08-14T15:04:21+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `think_admin` WHERE `user` = '567' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-08-14T15:04:21+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+
+[ 2016-08-14T15:04:24+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+
+[ 2016-08-14T15:04:26+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+
+[ 2016-08-14T15:04:28+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+
+[ 2016-08-14T15:04:30+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+
+[ 2016-08-14T15:04:33+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+
+[ 2016-08-14T15:05:20+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+
+[ 2016-08-14T15:05:29+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+
+[ 2016-08-14T15:05:48+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `think_admin` WHERE `user` = '58964156' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-08-14T15:05:54+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+
+[ 2016-08-14T15:06:11+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `think_admin` WHERE `user` = 'wangqihang' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_admin` WHERE `password` = 'a8b31d413907b0212638f70bbda5c981' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-08-14T15:06:18+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+
+[ 2016-08-14T15:06:26+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+
+[ 2016-08-14T15:06:30+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+
+[ 2016-08-14T15:06:37+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+
+[ 2016-08-14T15:29:30+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+
+[ 2016-08-14T15:29:38+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+
+[ 2016-08-14T15:30:11+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `think_admin` WHERE `user` = 'user3' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `think_admin` WHERE `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001525s ]
+
+[ 2016-08-14T15:35:39+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/write_handle
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `think_admin` WHERE `user` = 'user3' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0058s ]
+SQL: INSERT INTO `think_article` (`type`,`title`,`content`,`admin_id`,`time`) VALUES ('php','','','3','1471160139') [ RunTime:0.1009s ]
+
+[ 2016-08-14T15:40:08+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/write_handle
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `think_admin` WHERE `user` = 'user3' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0049s ]
+SQL: INSERT INTO `think_article` (`type`,`title`,`content`,`admin_id`,`time`) VALUES ('php','','','3','1471160408') [ RunTime:0.1410s ]
+
+[ 2016-08-14T15:57:05+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/write
+ERR: syntax error, unexpected 'dump' (T_STRING)
+
+[ 2016-08-14T15:58:25+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/write
+ERR: syntax error, unexpected 'echo' (T_ECHO)
+
+[ 2016-08-14T15:58:25+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/
+ERR: syntax error, unexpected 'echo' (T_ECHO)
+
+[ 2016-08-14T16:13:30+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/del/articleid/1
+ERR: syntax error, unexpected ';', expecting ',' or ')'
+
+[ 2016-08-14T16:14:03+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/del/articleid/1
+ERR: syntax error, unexpected ';', expecting ',' or ')'
+
+[ 2016-08-14T16:15:20+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `think_admin` WHERE `user` = 'wangqihang' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_admin` WHERE `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001335s ]
+
+[ 2016-08-14T22:20:30+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Index/change
+ERR: 模板不存在:./Application/Admin/View/Index/change.html
+

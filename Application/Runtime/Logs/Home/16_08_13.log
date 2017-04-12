@@ -1,0 +1,413 @@
+[ 2016-08-13T08:56:11+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: syntax error, unexpected 'U' (T_STRING), expecting ',' or ')'
+
+[ 2016-08-13T08:56:46+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/comment/art_id/49?content=
+ERR: Think\Model:gerError方法不存在！
+
+[ 2016-08-13T08:57:32+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T09:02:07+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index.html
+ERR: syntax error, unexpected '$message' (T_VARIABLE)
+
+[ 2016-08-13T09:02:10+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index.html
+ERR: syntax error, unexpected '$message' (T_VARIABLE)
+
+[ 2016-08-13T09:02:14+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index.html
+ERR: syntax error, unexpected '$message' (T_VARIABLE)
+
+[ 2016-08-13T09:02:24+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index.html
+ERR: syntax error, unexpected '$message' (T_VARIABLE)
+
+[ 2016-08-13T09:02:29+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: syntax error, unexpected '$message' (T_VARIABLE)
+
+[ 2016-08-13T09:03:52+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T09:06:02+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T09:08:30+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T09:08:37+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T09:08:41+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T09:08:44+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T09:08:54+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T09:10:47+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T09:20:47+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T09:22:39+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/detail.html
+ERR: 非法操作:detail
+
+[ 2016-08-13T09:23:05+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/detail.html
+ERR: 非法操作:detail
+
+[ 2016-08-13T09:23:08+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/detail.html
+ERR: 非法操作:detail
+
+[ 2016-08-13T09:23:14+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T09:24:45+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/__CONTROLLER__/index.html
+ERR: 无法加载控制器:__CONTROLLER__
+
+[ 2016-08-13T09:25:22+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/__CONTROLLER__/index.html
+ERR: 无法加载控制器:__CONTROLLER__
+
+[ 2016-08-13T09:25:27+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T09:27:56+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/comment/art_id/?content=%E4%BD%A0%E5%A5%BD%E3%80%82%E6%88%91%E6%98%AF%E8%B0%81
+ERR: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+
+[ 2016-08-13T09:29:06+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: syntax error, unexpected '$where' (T_VARIABLE), expecting ',' or ')'
+
+[ 2016-08-13T09:29:46+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T09:36:23+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/45
+ERR: syntax error, unexpected '{'
+
+[ 2016-08-13T09:54:29+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T09:54:40+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T09:56:32+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T09:56:52+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/index/articleid.html
+ERR: 非法操作:articleid
+
+[ 2016-08-13T09:59:06+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T09:59:35+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T09:59:53+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T10:00:43+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T10:01:13+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T10:02:45+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T10:05:50+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T10:06:48+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/index/articleid.html
+ERR: 非法操作:articleid
+
+[ 2016-08-13T10:08:46+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/index/articleid/45
+ERR: 非法操作:articleid
+
+[ 2016-08-13T10:09:47+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/%7B$where['article_id']%7D.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['article_id']} ) LIMIT 1' at line 1
+
+[ 2016-08-13T10:10:31+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/$where['article_id'].html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['article_id'] ) LIMIT 1' at line 1
+
+[ 2016-08-13T10:12:32+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T10:12:47+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T10:15:12+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/$where['article_id'].html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['article_id'] ) LIMIT 1' at line 1
+
+[ 2016-08-13T10:17:31+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/$where['article_id'].html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['article_id'] ) LIMIT 1' at line 1
+
+[ 2016-08-13T10:17:34+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/index/articleid/45
+ERR: 非法操作:articleid
+
+[ 2016-08-13T10:17:36+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T10:17:37+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T10:17:38+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T10:18:02+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T10:20:04+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T10:26:59+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T10:50:37+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/comment/art_id/48?content=%E6%B2%99%E5%8F%91%E7%9A%84%E6%B2%99%E5%8F%91%E7%9A%84%E8%AF%B4%E6%B3%95%E7%9A%84%E8%AF%B4%E6%B3%95
+ERR: Unsupported operand types
+
+[ 2016-08-13T10:51:12+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/comment/art_id/48?content=%E6%B2%99%E5%8F%91%E7%9A%84%E6%B2%99%E5%8F%91%E7%9A%84%E8%AF%B4%E6%B3%95%E7%9A%84%E8%AF%B4%E6%B3%95
+ERR: Unsupported operand types
+
+[ 2016-08-13T10:52:38+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/comment/art_id/48?content=%E6%98%AF%E6%89%93%E5%8F%91%E8%8C%83%E5%BE%B7%E8%90%A8%E5%8F%91%E7%94%9F%E7%9A%84%E6%98%AF%E6%89%93%E5%8F%91%E4%B8%8A%E7%9A%84%E9%98%BF%E6%96%AF%E8%92%82%E8%8A%AC
+ERR: Unsupported operand types
+
+[ 2016-08-13T11:29:19+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2016-08-13T12:19:28+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+
+[ 2016-08-13T16:39:16+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2016-08-13T16:40:09+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: ad E:\project\qihang\Thinkblog\Application\Home\Controller\DetailController.class.php 第 59 行.
+NOTIC: [8] Undefined index: re E:\project\qihang\Thinkblog\Application\Home\Controller\DetailController.class.php 第 60 行.
+
+[ 2016-08-13T16:40:27+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined index: ad E:\project\qihang\Thinkblog\Application\Home\Controller\DetailController.class.php 第 59 行.
+NOTIC: [8] Undefined index: re E:\project\qihang\Thinkblog\Application\Home\Controller\DetailController.class.php 第 60 行.
+
+[ 2016-08-13T16:41:23+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0072s ]
+
+[ 2016-08-13T16:43:13+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0080s ]
+
+[ 2016-08-13T16:59:02+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0035s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`content`,`time`) VALUES ('3','49','4','你好！','1471078742') [ RunTime:0.1145s ]
+
+[ 2016-08-13T16:59:17+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0046s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`content`,`time`) VALUES ('3','49','4','你好吗','1471078757') [ RunTime:0.1047s ]
+
+[ 2016-08-13T17:02:16+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0079s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`content`,`time`) VALUES ('3','49','4','发生的空间发挥空间都是考试等级划分空间按电话是空间划分空间呢','1471078936') [ RunTime:0.0699s ]
+
+[ 2016-08-13T17:02:43+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0047s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`content`,`time`) VALUES ('3','49','4','开始大幅空间看了','1471078963') [ RunTime:0.3039s ]
+
+[ 2016-08-13T17:02:53+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0070s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`content`,`time`) VALUES ('3','49','4','但是看了附近的','1471078973') [ RunTime:0.1551s ]
+
+[ 2016-08-13T17:03:58+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0024s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`content`,`time`) VALUES ('3','49','4','是东方红','1471079038') [ RunTime:0.0428s ]
+
+[ 2016-08-13T17:07:46+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0064s ]
+
+[ 2016-08-13T17:08:31+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0052s ]
+
+[ 2016-08-13T17:08:41+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0088s ]
+
+[ 2016-08-13T17:24:01+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0073s ]
+
+[ 2016-08-13T17:24:35+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0098s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`content`,`time`) VALUES ('3','49','4','和囖囖','1471080275') [ RunTime:0.0815s ]
+
+[ 2016-08-13T17:24:46+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0084s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`content`,`time`) VALUES ('4','49','4','空间还能卡对方','1471080286') [ RunTime:0.0664s ]
+
+[ 2016-08-13T17:25:26+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0039s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`content`,`time`) VALUES ('4','49','4','我是谁！','1471080326') [ RunTime:0.1042s ]
+
+[ 2016-08-13T17:25:42+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0092s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`content`,`time`) VALUES ('4','49','4','速度快解放路口','1471080342') [ RunTime:0.0553s ]
+
+[ 2016-08-13T17:26:20+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002664s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0075s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`content`,`time`) VALUES ('4','49','4','金福康粮店','1471080380') [ RunTime:0.1014s ]
+
+[ 2016-08-13T17:26:31+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0085s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`content`,`time`) VALUES ('3','49','4','克里斯多交流开发接口里的','1471080391') [ RunTime:0.0653s ]
+
+[ 2016-08-13T17:28:30+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0043s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`content`,`time`) VALUES ('4','49','4','罗科的数据库了附加来得快','1471080510') [ RunTime:0.0617s ]
+
+[ 2016-08-13T17:31:11+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0092s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`content`,`time`) VALUES ('4','49','4','看反馈了的数据库了附加','1471080671') [ RunTime:0.0802s ]
+
+[ 2016-08-13T17:31:45+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0061s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`content`,`time`) VALUES ('4','49','4','打算发多少大都是','1471080705') [ RunTime:0.1138s ]
+
+[ 2016-08-13T17:32:12+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0076s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`content`,`time`) VALUES ('4','49','4','发生大幅度阿斯蒂芬上的按时','1471080732') [ RunTime:0.0900s ]
+
+[ 2016-08-13T17:32:18+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0044s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`content`,`time`) VALUES ('4','49','4','都十分大方','1471080738') [ RunTime:0.0648s ]
+
+[ 2016-08-13T17:32:29+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001619s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0032s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`content`,`time`) VALUES ('4','49','4','是对方即可了解','1471080749') [ RunTime:0.0763s ]
+
+[ 2016-08-13T17:32:37+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0074s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`content`,`time`) VALUES ('4','49','4','多少分类考试的 阿斯蒂芬','1471080757') [ RunTime:0.0796s ]
+
+[ 2016-08-13T17:32:51+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0084s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`content`,`time`) VALUES ('3','49','4','啥地方就看见的伤口了健康福利','1471080771') [ RunTime:0.0662s ]
+
+[ 2016-08-13T17:39:52+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0056s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`content`,`time`) VALUES ('4','2','4','nohaohljklsdjf','1471081192') [ RunTime:0.0771s ]
+
+[ 2016-08-13T18:00:19+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/45?content=%E4%BD%A0%E5%A5%BD%EF%BC%81
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'think_answer.re_id' in 'on clause'
+
+[ 2016-08-13T18:00:20+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0062s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`content`,`time`) VALUES ('4','45','4','你好！','1471082420') [ RunTime:0.1179s ]
+
+[ 2016-08-13T18:01:46+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/45?content=%E4%BD%A0%E5%A5%BD%EF%BC%81
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'think_answer.re_id' in 'on clause'
+
+[ 2016-08-13T18:01:51+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/45
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'think_answer.re_id' in 'on clause'
+
+[ 2016-08-13T18:02:51+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0079s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`content`,`time`) VALUES ('4','73','4','士大夫就快了','1471082571') [ RunTime:0.0656s ]
+
+[ 2016-08-13T19:49:40+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'think_admin' in 'field list'
+
+[ 2016-08-13T20:52:11+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/45
+ERR: XML标签语法错误 : name="a" id="c" key="<?php echo ($vo["id"]); ?
+

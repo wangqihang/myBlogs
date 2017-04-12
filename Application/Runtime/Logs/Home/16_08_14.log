@@ -1,0 +1,55 @@
+[ 2016-08-14T11:41:26+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc' at line 1
+
+[ 2016-08-14T16:18:11+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0084s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`content`,`time`) VALUES ('4','89','4','593+','1471162691') [ RunTime:0.0544s ]
+
+[ 2016-08-14T16:30:25+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Index/index
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.id  ORDER BY time desc LIMIT 0,10' at line 1
+
+[ 2016-08-14T17:19:46+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/4
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'think_article.id' in 'where clause'
+
+[ 2016-08-14T17:20:54+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/4
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'think_article.id' in 'on clause'
+
+[ 2016-08-14T17:21:40+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/4
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'think_article.id' in 'on clause'
+
+[ 2016-08-14T17:44:27+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Index/index/p/1.html
+ERR: syntax error, unexpected '[', expecting variable (T_VARIABLE) or '{' or '$'
+
+[ 2016-08-14T17:44:44+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Index/index/p/1.html
+ERR: syntax error, unexpected '[', expecting variable (T_VARIABLE) or '{' or '$'
+
+[ 2016-08-14T17:44:49+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Index/index/p/1.html
+ERR: syntax error, unexpected '[', expecting variable (T_VARIABLE) or '{' or '$'
+
+[ 2016-08-14T17:45:24+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Index/index/p/1.html
+ERR: syntax error, unexpected '"]); ?>' (T_CONSTANT_ENCAPSED_STRING)
+
+[ 2016-08-14T17:46:03+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Index/index/p/1.html
+ERR: syntax error, unexpected '"]); ?>' (T_CONSTANT_ENCAPSED_STRING)
+
+[ 2016-08-14T21:00:26+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: Think\Model:file方法不存在！
+
+[ 2016-08-14T21:27:01+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: syntax error, unexpected 'foreach' (T_FOREACH)
+
+[ 2016-08-14T21:29:49+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: XML标签语法错误 : name= 'data1' id="vo"key="i"
+
+[ 2016-08-14T21:30:12+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: XML标签语法错误 : name= 'data1' id="vo"key="$i"
+
+[ 2016-08-14T21:31:06+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: XML标签语法错误 : name= 'data1' id="vo"key="$i=count($data1)"
+
+[ 2016-08-14T22:00:49+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/index/articleid/49
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'think_content.content' in 'field list'
+

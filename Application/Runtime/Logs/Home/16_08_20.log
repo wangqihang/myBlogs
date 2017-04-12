@@ -1,0 +1,7 @@
+[ 2016-08-20T08:47:17+08:00 ] ::1 /Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0069s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('4','141','4','对啊！','1471654036') [ RunTime:0.0616s ]
+

@@ -1,0 +1,316 @@
+body{
+	margin:0;
+	font-family:"Microsoft yahei";
+}
+body a{
+	text-decoration:none;
+	color:black;
+}
+body a:hover{
+	color:red;
+}
+#all{
+	width:100%;
+	height:900px;
+	z-index:1;
+}
+#header{
+	width:100%;
+	height:50px;
+	background:url('../img/header_bg.jpg');
+}
+#header span{
+	margin-left:900px;
+	padding-top:12px;
+	display:block;
+	width:100px;
+	float:left;
+	font-size:25px;
+	color:white;
+}
+.header-right{
+	width:263px;
+	height:50px;
+	float:right;
+	background:url('../img/header_right.jpg');
+}
+#blog{
+	width:960px;
+	margin:0 auto;
+}
+.img{
+	width:70px;
+	height:70px;
+	margin:10px;
+	background:#4e6eaf;
+	font-size:16px;
+}
+.img img{
+	max-width:100%;
+	height:auto;
+	vertical-align:middle;
+}
+#logout{
+	position:absolute;
+	margin-left:880px;
+}
+.info{
+	width:750px;
+	margin-left:100px;
+	margin-top:-60px;
+}
+.myblog{
+	width:155px;
+	height:25px;
+	margin-top:15px;
+	margin-left:100px;
+}
+#manage{
+	width:100%;
+	height:40px;
+	margin-top:50px;
+	background:white;
+	border-bottom:1px solid black;
+}
+#manage ul li{
+	list-style:none;
+	float:left;
+	width:95px;
+	height:35px;
+	margin-left:50px;
+	margin-top:5px;
+	background:#eee;
+	border-radius: 10px 10px 3px 3px;
+}
+#manage ul li:first-child{
+	margin-left:-40px !important;
+}
+#manage ul li:last-child{
+	border-radius: 20px !important;
+	background:#4e6eaf;
+}
+#manage ul li:last-child a{
+	color:white;
+}
+#manage ul li a{
+	margin-top:7px;
+	margin-left:14px;
+	display:block;
+	font-size:16px;
+	text-decoration:none;
+	color:black;
+}
+#manage ul li a:hover{
+	color:red;
+}
+.admin-aritcle{
+	margin:30px 0;
+}
+.title{
+	width:600px;
+	height:40px;
+}
+.operate{
+	width:100px;
+	height:40px;
+	margin-left:100px;
+}
+#article{
+	background:#f9f9f9;
+}
+#article table tr td{
+	border-top:1px solid gray;
+}
+#article table tr:hover{
+	background:white;
+}
+#article table tr td a:hover{
+	color:red;
+}
+#article table{
+	border-top:1px solid gray;
+}
+.style{
+	text-decoration:none;
+}
+.num , .current{
+	margin-left:10px;
+}
+
+
+/*这是写文章页面的样式*/
+#title{
+	width:300px;
+	height:20px;
+}
+
+#art-title , .com_title{
+	width:250px;
+	height:20px;
+	padding-top:10px;
+	display:block;
+	float:left;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+
+#write{
+	width:960px;
+}
+.addimg{
+	width:960px;
+	height:90px;
+	border:1px solid black;
+	margin-top:20px;
+}
+#send{
+	margin:30px 450px 100px;
+	width:80px;
+	height:30px;
+	background:#185b9e;
+	border:none;
+	color:white;
+	cursor:pointer;
+}
+#newsend{
+	margin:30px 450px 100px;
+	width:80px;
+	height:30px;
+	background:#185b9e;
+	border:none;
+	color:white;
+	cursor:pointer;
+}
+.art_admin{
+	background:#c3c3c3!important;
+}
+#com_admin{
+	padding-bottom:50px;
+	border:1px solid gray;
+}
+.com_title{
+	width:470px;
+	height:30px;
+}
+.com_content{
+	width:100%;
+	height:90px;
+}
+#com_admin table tr td{
+	text-align:center!important;
+}
+.com_content{
+	width:880px;
+	word-wrap: break-word;
+	text-align:left;
+	line-height:25px;
+	padding:5px;
+	overflow: hidden;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+.current,.num,.current,.next,.prv{
+	margin-left:10px;
+	border:1px solid #6161f5;
+	padding:0 5px;
+}
+.current{
+	color:white;
+	background:#2e6ab1;
+}
+.top{
+	background:#eeeeee;
+}
+/*修改信息页面的样式*/
+.info_button{
+	width:80px;
+	height:30px;
+	background:#2e6ab1;
+	margin-top: 30px;
+    margin-left: 17px;
+	border:none;
+	color:white;
+}
+.info_button:hover{
+	background:#112b4a;
+}
+/*--------上传文件-------*/
+#upload{
+	float:right;
+}
+.upload_but{
+	width:100px;
+	height:30px;
+	margin-right:10px;
+	color:white;
+	font-size:16px;
+	border:none;
+	cursor:pointer;
+	background:#4e6eaf;
+}
+
+.full{
+	width:100%;
+	height:100%;
+	top:0;
+	background:rgb(100,100,100);
+	opacity:0.6;
+	display:none;
+	position:absolute;
+	z-index:2;
+}
+#upload_form{
+	width:500px;
+	height:300px;
+	margin-left:675px;
+	background:white;
+	padding:20px 20px 80px 20px;
+	position:absolute;
+	display:none;
+	top: 220px;
+	z-index:5;
+	overflow:hidden;
+}
+.upload_back{
+	margin-top:-42px;
+	float:right;
+}
+#queue{
+	font-family:"Microsoft yahei"; 
+	margin-bottom:30px;
+}
+/*------------------资源下载页面---------------------*/
+.download{
+	width:100%;
+	margin-top:20px;
+	border:1px solid black;
+}
+.download_cont{
+	width:97%;
+	margin:0 20px 0 20px;
+	height:50px;
+	border-top:1px solid blue;
+	border-bottom:1px solid blue;
+}
+.download_cont tr td{
+	width: 213px;
+	text-align:center;
+}
+.a{
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	width:350px;
+}
+.th{
+		margin-left:220px;
+}
+.th th{
+	width:150px;
+	height:44px;
+}
+.page{
+	text-align:center;
+	margin:30px;
+}

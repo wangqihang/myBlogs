@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人博客</title>
+	<link rel="stylesheet" href="__ROOT__/Public/admin/css/login.css">
+	<link rel="icon" type="image/x-icon" href="__PUBLIC__/logo/favicon.jpg">
+</head>
+<body>
+	<div id="header">
+		<div id="title">
+			<a href="__MODULE__/../Home/Index/index"><img src="__PUBLIC__/logo/logo.png" alt="logo" title="点击到博客主页"></a>
+			<h4>分享生活 &nbsp;&nbsp;,&nbsp;&nbsp; 留住感动</h4>
+		</div>
+	</div>
+	<div id="content">
+		<div id="login">
+			<div class="login-title">
+				<h4>用户登陆</h4>
+			</div>
+			<form id="form" action="__CONTROLLER__/login"  method="post">
+				<table cellpadding="10px">
+					<tr>
+						<td>用户名：</td><td><input id="user" type="text"name="user" placeholder="请输入账号"required="required"maxlength="24"><br/></td>
+					</tr>
+					<tr>
+						<td>密&nbsp;码：</td><td><input id="password" type="password" name="password" placeholder="请输入密码(6~16位)" required="required"maxlength="16"minlength="6"><br/></td>
+					</tr>
+					<tr>
+						<td>验证码：</td><td><input type="text" id="code" name="code" maxlength="4" placeholder="请输入验证码"required="required"></td>
+					</tr>
+				</table>
+				<div class="capt">
+					<img id="imgcode" name="code" src="__CONTROLLER__/code/" onclick=this.src="__CONTROLLER__/code/"+Math.random() title="点击切换验证码" style="cursor:pointer" alt="验证码">
+				</div>
+				<input id="submit" name="sub" type="button" value="登录">
+				<div class="register"><a class="reg" href="__CONTROLLER__/forget">忘记密码</a> | <a href="__CONTROLLER__/register">注册账号</a></div>
+			</form>
+		</div>
+	</div>
+	<script src="__ROOT__/Public/admin/js/jquery-main.js"></script>
+	<script src="__ROOT__/Public/admin/js/admin.js"></script>
+</body>
+</html>

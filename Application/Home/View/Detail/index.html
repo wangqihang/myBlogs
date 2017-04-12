@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>文章详情</title>
+	<link rel="stylesheet" href="__PUBLIC__/blog/css/detail.css">
+	<link rel="icon" type="image/x-icon" href="__PUBLIC__/logo/favicon.jpg">
+</head>
+<body>
+	<div id="head">
+		<a href="">{$re['name']}的博客</a>
+	</div>
+	<div id="main">
+		<div class="info">
+			 <ul><span>个人资料</span></ul>
+			 <div class="tou">
+			 	<div class="touimg"><img src="__PUBLIC__/admin/Uploads/{$re['imgpath']}" alt="头像"></div>
+			 	<span>{$re['name']}</span>
+			 </div>
+			 <ul>
+			 	<li>文章类型：{$re['type']}</li>
+			 	<li>评论：{$re['count']}条</li>
+			 </ul>
+		</div>
+		<div class="article">
+			<div class="art-title">
+				<div class="nav"><span><a href="__MODULE__/Index/index">博客园子</a> &middot; <a href="__MODULE__/../Admin/Index/index">博客管理</a></span></div>
+				<h3>{$re['title']}</h3>
+				<span>标签：<a href="__MODULE__/Index/index/type/{$re['type']}">{$re['type']}</a></span>
+				<div class="art-info">
+					<span>{$re.time|date='Y-m-d H:i:s',###}</span>
+					<span>评论：({$re['count']})</span>
+				</div>
+			</div>
+			<div class="content">
+				{$re['content']}
+			</div><hr style="border:1px dotted blue;"/>
+			<div id="comment">
+				<h4>查看评论</h4><hr style="width:96%;"/>
+				<volist name="data2" id="vo2" key="i">
+					<div class="look">
+						<span id="admin" style="color:blue;">{$vo2.name}<!-- {$vo2.admin_id} --></span>
+						<span style="float:right;font-size:14px;">发表于 &nbsp;&nbsp;&nbsp;{$vo2.reply_time|date='Y-m-d H:i:s',###}&nbsp;&nbsp;
+						<if condition="$session neq null">
+								<a date="{$vo2.id}" class="reply" href="#com_content"> 回复</a> <input type="hidden" value="{$vo2.admin_id}"><!-- {$vo2.admin_id} --></span>
+							<else/>
+								<a class="reply" href="#notlogin" onclick="alert('你还没有登录!');"><span class="com">回复</span></a></span>
+						</if>
+						<div class="com_ans_con">
+							<p>{$vo2.content}</p>
+						</div>
+							<volist name="data1" id="vo1" key="j">
+								<if condition="$data2[$i-1]['id'] eq $data1[$j-1]['reply_id']">
+									<div class="answer">
+										<span class="user">{$vo1.name}<!-- {$vo1.admin_id} --></span> 回复： {$data3[$j-1]['name']}<!-- {$vo1.answer_id} -->
+										<span class="answer-time">&nbsp;&nbsp; {$vo1.time|date='Y-m-d H:i:s',###}&nbsp;&nbsp;
+										<if condition="$session neq null">
+												<a date="{$vo2.id}" class="reply" href="#com_content">回复</a><input type="hidden" value="{$vo1.admin_id}"><!-- {$vo1.admin_id} --></span>
+											<else/>
+												<a class="reply" href="#notlogin" onclick="alert('你还没有登录!');"><span class="com">回复</span></a></span>
+										</if>
+										</span>
+										<div class="com_ans_con">
+											<p>{$vo1.answer_content}</p>
+										</div>
+									</div>
+								</if>
+							</volist>
+					</div><hr style="width:96%;"/>
+				</volist>
+				<h4>发表评论</h4><hr/>
+				<div class="form">
+				<if condition="$session neq null">
+						用户名：<span id="auther">{$session}</span><span id="huifu"></span><br/>	
+						<span id="pinglun">评论:</span>
+						<form id="for" action="__CONTROLLER__/comment/art_id/{$re.id}">
+							<textarea name="content" id="com_content"  cols="120" rows="10"></textarea>
+							<input id="sub" type="submit" value="提交">
+							<button id='but'>回复</button>
+						</form>
+					<else/>
+						<span id="notlogin" style="margin:50px;">您还没有<a href="__MODULE__/../Admin/Login/login">[登录]</a>或<a href="">[注册]</a></span>
+				</if>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+	<script src="__PUBLIC__/admin/js/jquery-main.js"></script>
+	<script src="__PUBLIC__/blog/js/index.js"></script>
+</html>

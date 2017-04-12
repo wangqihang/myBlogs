@@ -1,0 +1,421 @@
+[ 2016-08-18T10:01:35+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Index/resource
+ERR: 模板不存在:./Application/Home/View/Index/resource.html
+
+[ 2016-08-18T13:13:37+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Index/resource
+ERR: syntax error, unexpected end of file, expecting function (T_FUNCTION)
+
+[ 2016-08-18T15:44:00+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Index/index
+ERR: syntax error, unexpected 'exit' (T_EXIT)
+
+[ 2016-08-18T15:44:11+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Index/index
+ERR: syntax error, unexpected 'exit' (T_EXIT)
+
+[ 2016-08-18T16:16:53+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0084s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','110','8','我回复自己的评论','1471508213') [ RunTime:0.0544s ]
+
+[ 2016-08-18T16:17:08+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0072s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','110','8','再回复一条','1471508228') [ RunTime:0.1070s ]
+
+[ 2016-08-18T16:45:36+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0068s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','113','8','回复1
+','1471509936') [ RunTime:0.0918s ]
+
+[ 2016-08-18T16:45:50+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0068s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','113','8','回复2','1471509950') [ RunTime:0.0782s ]
+
+[ 2016-08-18T16:50:52+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0070s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','115','8','回复评论1','1471510252') [ RunTime:0.0511s ]
+
+[ 2016-08-18T16:52:03+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0086s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','114','8','回复评论1','1471510323') [ RunTime:0.0642s ]
+
+[ 2016-08-18T16:52:18+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0072s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','114','8','回复评论2','1471510338') [ RunTime:0.0443s ]
+
+[ 2016-08-18T16:52:49+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0073s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','115','8','回复评论3','1471510369') [ RunTime:0.0908s ]
+
+[ 2016-08-18T16:56:19+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0075s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','117','8','1111111111111222222222222222222','1471510578') [ RunTime:0.2285s ]
+
+[ 2016-08-18T16:56:40+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0069s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','117','8','11111111111111111333333333333333333','1471510600') [ RunTime:0.0606s ]
+
+[ 2016-08-18T16:56:53+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0068s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','117','8','111111111111144444444444444444444','1471510612') [ RunTime:0.1094s ]
+
+[ 2016-08-18T16:57:05+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0047s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','118','8','111111111111111111111155555555555555555555','1471510625') [ RunTime:0.0495s ]
+
+[ 2016-08-18T17:07:28+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0088s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','121','8','4444444444444444444444','1471511248') [ RunTime:0.0531s ]
+
+[ 2016-08-18T17:07:36+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0021s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','121','8','5555555555555555555555555555555555555','1471511256') [ RunTime:0.0908s ]
+
+[ 2016-08-18T17:07:44+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0084s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','121','8','444444444444444444444444444444','1471511264') [ RunTime:0.0785s ]
+
+[ 2016-08-18T17:07:58+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0073s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','121','8','666666666666666666666666','1471511278') [ RunTime:0.0551s ]
+
+[ 2016-08-18T17:08:08+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0099s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','119','8','777777777777777777777777777','1471511288') [ RunTime:0.0549s ]
+
+[ 2016-08-18T17:08:18+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0090s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','119','8','999999999999999999999999999999999','1471511298') [ RunTime:0.0581s ]
+
+[ 2016-08-18T17:08:27+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0082s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','119','8','888888888888888888888888888888888888','1471511307') [ RunTime:0.0689s ]
+
+[ 2016-08-18T17:22:22+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/idnex
+ERR: 无法加载控制器:Idnex
+
+[ 2016-08-18T17:26:02+08:00 ] ::1 /qihang/Thinkblog/Home/homepage
+ERR: 无法加载控制器:Homepage
+
+[ 2016-08-18T17:26:13+08:00 ] ::1 /qihang/Thinkblog/Home/resource
+ERR: 无法加载控制器:Resource
+
+[ 2016-08-18T18:11:02+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0083s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('7','106','4','还hello world','1471515062') [ RunTime:0.0770s ]
+
+[ 2016-08-18T18:11:20+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0035s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('4','106','4','hello','1471515080') [ RunTime:0.0577s ]
+
+[ 2016-08-18T19:19:18+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0082s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('4','108','4','123','1471519158') [ RunTime:0.1307s ]
+
+[ 2016-08-18T19:19:37+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0067s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('4','108','4','的风格和对方是个','1471519177') [ RunTime:0.0496s ]
+
+[ 2016-08-18T19:19:54+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0077s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('4','108','4','发送到发送到','1471519193') [ RunTime:0.0585s ]
+
+[ 2016-08-18T19:20:20+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0075s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('4','82','4','是打发斯蒂芬','1471519220') [ RunTime:0.1719s ]
+
+[ 2016-08-18T19:20:58+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002194s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0048s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('4','82','4','电饭锅电饭锅','1471519258') [ RunTime:0.1922s ]
+
+[ 2016-08-18T19:21:10+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0031s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('4','82','4','123456','1471519269') [ RunTime:0.4402s ]
+
+[ 2016-08-18T19:21:24+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0025s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('4','82','4','还都是借口','1471519284') [ RunTime:0.0620s ]
+
+[ 2016-08-18T19:21:35+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0075s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('4','123','4','看大家看法','1471519295') [ RunTime:0.0641s ]
+
+[ 2016-08-18T19:24:09+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0074s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('4','99','8','是是，不错','1471519449') [ RunTime:0.0561s ]
+
+[ 2016-08-18T19:24:30+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0069s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('4','98','8','你的不对','1471519470') [ RunTime:0.1179s ]
+
+[ 2016-08-18T19:31:30+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0070s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','124','8','文章太长、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、','1471519890') [ RunTime:0.0542s ]
+
+[ 2016-08-18T19:31:53+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0076s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','124','8','你还。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。','1471519913') [ RunTime:0.0601s ]
+
+[ 2016-08-18T19:32:18+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0066s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','124','8','对方公司股份的股份的','1471519938') [ RunTime:0.2467s ]
+
+[ 2016-08-18T19:32:38+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0075s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','124','8','是的发送到饭店是范德萨范德萨范德萨','1471519958') [ RunTime:0.0577s ]
+
+[ 2016-08-18T19:33:01+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0060s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','124','8','打算发反反复复反复反复反复反复反复反复','1471519981') [ RunTime:0.0843s ]
+
+[ 2016-08-18T19:33:16+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0070s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','124','8','1231333333331222222222222222222','1471519996') [ RunTime:0.0472s ]
+
+[ 2016-08-18T19:33:43+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0026s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','124','8','第三方第三方第三方的','1471520023') [ RunTime:0.0579s ]
+
+[ 2016-08-18T19:33:49+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0071s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','124','8','的说法的说法','1471520029') [ RunTime:0.0807s ]
+
+[ 2016-08-18T19:33:56+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0147s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','124','8','似的发的说法','1471520036') [ RunTime:0.1258s ]
+
+[ 2016-08-18T19:39:18+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0072s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','127','8','你是谁？？？？？？？？？？？？？？','1471520358') [ RunTime:0.1284s ]
+
+[ 2016-08-18T19:39:50+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0103s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','127','8','你好hello world','1471520390') [ RunTime:0.0592s ]
+
+[ 2016-08-18T19:43:34+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0024s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','127','4','我叫博客园','1471520614') [ RunTime:0.0878s ]
+
+[ 2016-08-18T19:46:26+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0048s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','127','6','我是小小桑','1471520786') [ RunTime:0.0691s ]
+
+[ 2016-08-18T19:47:27+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0077s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('4','127','6','我是啊？、/、/、/、、？/?','1471520847') [ RunTime:0.0662s ]
+
+[ 2016-08-18T20:17:16+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0026s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('2','129','2','冻死了快放假快乐','1471522636') [ RunTime:0.0780s ]
+
+[ 2016-08-18T20:17:25+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0091s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('2','129','2','看到手机话费卡','1471522645') [ RunTime:0.0520s ]
+
+[ 2016-08-18T20:17:51+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0087s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','127','2','速度快了附近开了地方','1471522671') [ RunTime:0.0696s ]
+
+[ 2016-08-18T20:46:36+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0079s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','130','8','收到回复看见的','1471524396') [ RunTime:0.0429s ]
+
+[ 2016-08-18T20:46:44+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0067s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','130','8','端口是否开机','1471524404') [ RunTime:0.0871s ]
+
+[ 2016-08-18T20:46:56+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0023s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','130','8','的空间是否开机后','1471524416') [ RunTime:0.0632s ]
+
+[ 2016-08-18T20:47:13+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002163s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0102s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','131','8','的收费空间','1471524433') [ RunTime:0.0591s ]
+
+[ 2016-08-18T21:09:39+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001491s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0022s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('6','97','8','你叫小小桑','1471525779') [ RunTime:0.0788s ]
+
+[ 2016-08-18T21:15:39+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0087s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','132','8','是打发打发第三方','1471526139') [ RunTime:0.0498s ]
+
+[ 2016-08-18T21:22:46+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0026s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','133','8','这个模板好','1471526566') [ RunTime:0.0380s ]
+
+[ 2016-08-18T21:48:59+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0072s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('7','106','4','电话开机费','1471528138') [ RunTime:0.1066s ]
+
+[ 2016-08-18T22:12:24+08:00 ] ::1 /qihang/Thinkblog/index.php/Home/Detail/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+SQL: SHOW COLUMNS FROM `think_answer` [ RunTime:0.0077s ]
+SQL: INSERT INTO `think_answer` (`answer_id`,`reply_id`,`admin_id`,`answer_content`,`time`) VALUES ('8','127','4','lsdkjlfkj了空间上的看法','1471529544') [ RunTime:0.0791s ]
+

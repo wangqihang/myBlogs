@@ -1,0 +1,199 @@
+body{
+	width:1903px;
+	margin:0;
+}
+#user{
+	width:100%;
+	height:30px;
+}
+#user span{
+	padding-top:10px;
+	margin-right:20px;
+	float:right;
+}
+#user span a{
+	color:black;
+	text-decoration:none;
+}
+#user span a:hover{
+	color:red;
+	border-bottom:1px solid red;
+}
+.logo{
+	width:1880px;
+	height:70px;
+	border:1px solid #6161f5;
+	margin:0 auto;
+}
+.logo img{
+	margin:10px;
+}
+.nav{
+	width:1880px;
+	height:30px;
+	margin:0 auto;
+	background:#2b6695;
+}
+#main{
+	font-family:"Microsoft yahei";
+}
+.type{
+	width:158px;
+	height:256px;
+	margin-top:67px;
+	margin-left:20px;
+	border:1px solid #6161f5;
+	float:left;
+	overflow:hidden;
+}
+.type ul{
+	margin-left:-40px;
+}
+.type h4{
+	margin-top: -16px;
+	margin-bottom:0;
+	display:block;
+	height:25px;
+	padding-left:40px;
+	padding-top:5px;
+	background:#eff5fc;
+}
+.type li{
+	list-style:none;
+	width:147px;
+	height:35px;
+	padding-top:10px;
+	padding-left:10px;
+	background:#eeeeff;
+}
+.type li a{
+	color:black;
+	display:block;
+	text-decoration:none;
+	height:45px;
+	margin-left:-10px;
+    margin-top: -10px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.type li:hover{
+	background:white;
+}
+.article{
+	width:1410px;
+	overflow:hidden;
+	margin-left: 200px;
+    margin-top: 20px;
+	border-bottom:1px solid #6161f5;
+	border-top:1px solid #6161f5;
+}
+.detail{
+	width:100%;
+	height:125px;
+	padding-left:30px;
+	padding-top:20px;
+	border-bottom:1px dashed black;
+}
+.title{
+	font-size:18px;
+	color:black;
+	text-decoration:none;
+	border-bottom:1px solid black;
+}
+.title:hover{
+	color:red;
+	border-bottom:1px solid red;
+}
+.content{
+	margin-top:11px;
+	width: 80%;
+    height: 30px;
+    overflow:hidden;
+}
+.content p{
+	width:80%;
+	height:30px;
+	margin-top:0;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.info{
+	margin-top:13px;
+}
+.page{
+	margin-top:30px;
+	margin-bottom:100px;
+	text-align:center;
+}
+.page a{
+	text-decoration:none;
+}
+.current,.num,.current,.next,.prv{
+	margin-left:10px;
+	border:1px solid #6161f5;
+	padding:0 5px;
+}
+.current{
+	color:white;
+	background:#2e6ab1;
+}
+.one{
+	color:white;
+	background:#2e6ab1;
+}
+/*-----------搜索样式-------------*/
+#search{
+	float:right;
+	margin-top:20px;
+	margin-right:242px;
+	margin-bottom:20px;
+}
+#search input {
+	width:300px;
+	height:30px;
+	font-size:16px;
+}
+#but_search{
+	width:56px;
+	height:25px;
+	cursor:pointer;
+	background:#2e6ab1;
+	border:none;
+	color:white;
+}
+#but_search:hover{
+	color:red;
+	border:1px solid black;
+	background:rgba(220,220,220,0.5);
+}
+/*------------------资源下载页面---------------------*/
+.download{
+	width:70%;
+	margin:0 auto;
+	border:1px solid black;
+}
+.download_cont{
+	width:97%;
+	margin:0 20px 0 20px;
+	height:50px;
+	border-top:1px solid blue;
+	border-bottom:1px solid blue;
+}
+.download_cont tr td{
+	width: 213px;
+	text-align:center;
+}
+.a{
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	width:350px;
+}
+.th{
+		margin-left:220px;
+}
+.th th{
+	width:150px;
+	height:44px;
+}

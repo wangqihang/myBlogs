@@ -1,0 +1,22 @@
+[ 2016-08-16T17:04:40+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `think_admin` WHERE `user` = 'user' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_admin` WHERE `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001438s ]
+
+[ 2016-08-16T20:16:10+08:00 ] ::1 /qihang/Thinkblog/index.php/Admin/Login/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `think_admin` WHERE `user` = 'wangqihang' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_admin` WHERE `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+

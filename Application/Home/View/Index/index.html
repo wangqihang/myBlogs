@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>博客首页</title>
+	<link rel="stylesheet" href="__PUBLIC__/blog/css/index.css">
+	<link rel="icon" type="image/x-icon" href="__PUBLIC__/logo/favicon.jpg">
+</head>
+<body>
+	<div id="head">
+		<div id="user">
+				<if condition="$flag eq 1">
+						<span><a href="__CONTROLLER__/resource">博客资源下载</a>&middot;<a href="__MODULE__/../Admin/Index/index">{$name}</a>&middot;<a href="__CONTROLLER__/homepage/user/{$session}">我的博客</a>&middot;<a href="__MODULE__/../Admin/Login/logout" onclick="if (confirm('确定要退出吗？')) return true; else return false;">退出</a>
+					<else/>
+						<span><a href="__CONTROLLER__/resource">博客资源下载</a>&middot;<a href="__MODULE__/../Admin/Login/login">登录</a>&middot;<a href="__MODULE__/../Admin/Login/register">注册</a></span>
+				</if>
+			</span>
+		</div>
+		<div class="logo">
+			<img src="__PUBLIC__/blog/img/logo1.gif" alt="图标">
+		</div>
+		<div class="nav"></div>
+		<div id="search">
+			<form action="__CONTROLLER__/search" method="post">
+				<input type="text" name="condition" placeholder="请输入文章标题、或者文章内容">
+				<button id="but_search" type="submit">搜索</button>
+			</form>
+		</div>
+		<div id="main">
+			<div class="type">
+				<ul>
+					<h4>文章类型</h4>
+					<if condition="$type eq null">
+						<li style="background:white;"><a href="__CONTROLLER__/index">全部</a></li>
+						<li><a href="__CONTROLLER__/index/type/php">php</a></li>
+						<li><a href="__CONTROLLER__/index/type/web前端">web前端</a></li>
+						<li><a href="__CONTROLLER__/index/type/综合">综合</a></li>
+						<li><a href="__CONTROLLER__/index/type/其他">其他</a></li>
+					<elseif condition="$type heq php"/>
+						<li><a href="__CONTROLLER__/index">全部</a></li>
+						<li><a style="background:white;" href="__CONTROLLER__/index/type/php">php</a></li>
+						<li><a href="__CONTROLLER__/index/type/web前端">web前端</a></li>
+						<li><a href="__CONTROLLER__/index/type/综合">综合</a></li>
+						<li><a href="__CONTROLLER__/index/type/其他">其他</a></li>
+					<elseif condition="$type eq web前端"/>
+						<li><a href="__CONTROLLER__/index">全部</a></li>
+						<li><a href="__CONTROLLER__/index/type/php">php</a></li>
+						<li><a style="background:white;" href="__CONTROLLER__/index/type/web前端">web前端</a></li>
+						<li><a href="__CONTROLLER__/index/type/综合">综合</a></li>
+						<li><a href="__CONTROLLER__/index/type/其他">其他</a></li>
+					<elseif condition="$type eq 综合"/>
+						<li><a href="__CONTROLLER__/index">全部</a></li>
+						<li><a href="__CONTROLLER__/index/type/php">php</a></li>
+						<li><a href="__CONTROLLER__/index/type/web前端">web前端</a></li>
+						<li><a style="background:white;" href="__CONTROLLER__/index/type/综合">综合</a></li>
+						<li><a href="__CONTROLLER__/index/type/其他">其他</a></li>
+					<else/>
+						<li><a href="__CONTROLLER__/index">全部</a></li>
+						<li><a href="__CONTROLLER__/index/type/php">php</a></li>
+						<li><a href="__CONTROLLER__/index/type/web前端">web前端</a></li>
+						<li><a href="__CONTROLLER__/index/type/综合">综合</a></li>
+						<li><a style="background:white;" href="__CONTROLLER__/index/type/其他">其他</a></li>
+					</if>
+				</ul>
+			</div>
+			<div class="article">
+				<volist name="list" id="vo">
+					<div class="detail">
+						<a href="__MODULE__/Detail/index/articleid/{$vo.id}" class="title"title="点击查看详情">{$vo.title}</a><br/>
+						<span style="float:left;margin-top:10px;">内容：</span>
+						<div class="content">
+							{$vo.content}
+						</div>
+						<div class="info">
+							<span><a href="__MODULE__/Index/homepage/user/{$vo.admin_id}">{$vo.name}</a>&nbsp;&nbsp;&nbsp;</span>发表于&nbsp;{$vo.time|date='Y-m-d H:i:s',###} &nbsp;&nbsp;&nbsp;评论({$vo.count})
+						</div>
+					</div>
+				</volist>
+				<if condition="$count egt 10">
+						<div class="page">{$page}</div>
+					<else/>
+						<div class="page">共 1 页</div>
+				</if>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
