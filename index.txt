@@ -3,4 +3,6 @@
 33333333333333
 44444444444444
 this is master branch~
-this is dev branch!!!!!!!!!!
+<<<<<<< HEAD
+this is dev branch!!!!!!!!!
+我是好人，很好很好的一个人~
