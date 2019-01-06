@@ -3,6 +3,14 @@
 33333333333333
 44444444444444
 this is master branch~
-<<<<<<< HEAD
 this is dev branch!!!!!!!!!
-我是好人，很好很好的一个人~
+我是好人，很好很好的一个�jlfajsldjflksjdlk
+
+
+
+
+
+
+function dev {
+	echo 'hello';
+}
