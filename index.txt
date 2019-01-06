@@ -14,3 +14,10 @@ this is dev branch!!!!!!!!!
 function dev {
 	echo 'hello';
 }
+
+
+
+
+function test1 {
+	echo 'this is function test1~';
+}
